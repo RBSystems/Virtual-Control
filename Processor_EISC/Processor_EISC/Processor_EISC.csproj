@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Crestron.SimplSharpPro.DeviceSupport">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Required References\Crestron.SimplSharpPro.DeviceSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.EthernetCommunications">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Crestron.SimplSharpPro.EthernetCommunications.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCustomAttributesInterface">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Required References\SimplSharpCustomAttributesInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCWSHelperInterface">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Required References\SimplSharpCWSHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpHelperInterface">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Required References\SimplSharpHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpPro">
+      <HintPath>..\..\..\..\01 TECH FILES\Virtual Control\Virtual Control v2.000.3796.12152\Libraries\Required References\SimplSharpPro.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ProgramInfo.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SimplSharpData.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

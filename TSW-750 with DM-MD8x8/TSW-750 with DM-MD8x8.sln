@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSW750_with_DMMD8x8", "TSW-750 with DM-MD8x8\TSW750_with_DMMD8x8.csproj", "{0262A72C-A2B0-409A-846C-68572E4928E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0262A72C-A2B0-409A-846C-68572E4928E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0262A72C-A2B0-409A-846C-68572E4928E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0262A72C-A2B0-409A-846C-68572E4928E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0262A72C-A2B0-409A-846C-68572E4928E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDE8961E-4DF4-4D57-8EFD-579FDF7E6E0E}
+	EndGlobalSection
+EndGlobal
