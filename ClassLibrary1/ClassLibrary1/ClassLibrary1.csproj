@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Crestron.SimplSharpPro.DM">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SSPDevices\Crestron.SimplSharpPro.DM.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.GeneralIO">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SSPDevices\Crestron.SimplSharpPro.GeneralIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Media">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.UI">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SSPDevices\Crestron.SimplSharpPro.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCWSHelperInterface">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SimplSharpCWSHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpHelperInterface">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SimplSharpHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpPro">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SimplSharpPro.exe</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpReflectionInterface">
+      <HintPath>..\..\..\..\..\..\ProgramData\crestron\SDK\SimplSharpReflectionInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ProgramInfo.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SimplSharpData.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
